@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+}
+
+.main-section {
+    background-image: url(../img/designer_1.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    
+    padding-left: 163px;
+    padding-right: 165px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    width: 245px;
+    margin-top: 18px;
+    font-size: 18px; 
+    color: rgba(80, 95, 152, 1);
+}
+.header-list-item {
+    margin: 0;
+}
+.header-h1 {
+    font-size: 26px;
+    color: rgba(55, 68, 126, 1);
+}
+.buynow-button {
+    width: 160px;
+    height: 26px;
+    background-color: rgba(17, 27, 71, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    border-radius: 5px 5px 5px 5px;
+}
+.main-section-info {
+    width: 539px;
+    height: 421px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.introduction {
+    width: 539px;
+    height: 316px;
+    margin-top: 243px;
+    margin-bottom: 69px;
+}
+.main-section-info-h1 {
+    color: rgba(9, 17, 51, 1);
+    font-size: 50px;
+}
+.main-section-p {
+    color: rgba(80, 95, 152, 1);
+    font-size: 18px;
+}
+.purchase-button {
+    text-align: center;
+    width: 189px;
+    height: 36px;
+    border: none;
+    background-color: rgba(17, 27, 71, 1);
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+}
+.learnmore-button {
+    width: 189px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(9, 17, 51, 1);
+    border-style: solid;
+    border-color:rgba(9, 17, 51, 1);
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.basement-section {
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url(../img/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 190px;
+    padding-bottom: 200px;
+}
+
+.about_price {
+    display: block;
+}
+.about_price_h1 {
+    margin-top: 238px;
+    color: rgba(9, 17, 51, 1);
+    font-size: 36px;
+    
+}
+.about_price_p {
+    color: rgba(111, 124, 178, 1);
+    font-size: 16px;
+}
+
+.price {
+    color: rgba(34, 47, 101, 1);
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.underprice-h2 {
+    color: rgba(55, 68, 126, 1);
+    font-size: 16px;
+}
+.underprice-h3 {
+    color: rgba(93, 105, 112, 1);
+    font-size: 14px;
+}
+
+.price-div {
+    margin-bottom: 60px;
+}
+
+.purchasenow-button {
+    text-align: center;
+    width: 189px;
+    height: 36px;
+    border: none;
+    background-color: rgba(17, 27, 71, 1);
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer-nav {
+    background-image: url(../img/footer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    font-family: 'Roboto';
+    padding-bottom: 32px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.up-footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-h1 {
+    font-size: 26px;
+    color: rgba(55, 68, 126, 1);
+    margin-top: 61px;
+}
+
+.footer-h3 {
+    font-size: 14px;
+    color: rgba(147, 158, 164, 1);
+    margin-top: 68px;
+    margin-left: 40px;
+}
+
+.footer-purchasenow-button {
+    text-align: center;
+    width: 109px;
+    height: 26px;
+    border: none;
+    background-color: rgba(17, 27, 71, 1);
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    border-radius: 3px 3px 3px 3px;
+    margin-top: 67px;
+    margin-right: 40px;
+}
+
+.footer-rectangle {
+    margin: 0 auto;
+    display: block;
+}
+
+.footer-panel {
+    
+}
+
+.footer-list {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+    height: 24px;
+    color: rgba(146, 158, 204, 1);
+    font-size: 14px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.request-call-button {
+    text-align: center;
+    width: 189px;
+    height: 36px;
+    border: none;
+    background-color: rgba(17, 27, 71, 1);
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 16px;
+}
+
+.input-phone {
+    width: 189px;
+    height: 29px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(9, 17, 51, 1);
+    border-style: solid;
+    border-color:rgba(9, 17, 51, 1);
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.input-name {
+    width: 189px;
+    height: 29px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(9, 17, 51, 1);
+    border-style: solid;
+    border-color:rgba(9, 17, 51, 1);
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+button:hover {
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.6);
+}
+
+.request-call-button:hover {
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.6);
+}
+
+.input-phone:invalid {
+    border-color: orange;
+}
+
+.input-name:invalid {
+    border-color: orange;
+}
+
+.modal-window {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+}
+
+#modalCloseButton {
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: rgba(17, 27, 71, 1);
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 16px;
+}
